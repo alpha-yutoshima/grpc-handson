@@ -36,7 +36,6 @@ function getServer() {
     ServerCredentials.createInsecure(),
     () => {
       console.log("server start");
-      server.start();
     }
   );
 }
